@@ -163,7 +163,7 @@ playButton.addEventListener("click", () => {
 });
 
 pauseButton.addEventListener("click",  pauseSong);
-
+previousButton.addEventListener("click", playPreviouseSong);
 const sortSongs = () => {
   userData?.songs.sort((a,b) => {
     if (a.title < b.title) {
